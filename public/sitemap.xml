@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Hub Pages -->
+  <url>
+    <loc>https://solarpanelcalculator.org/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://solarpanelcalculator.org/calculators</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://solarpanelcalculator.org/guides</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://solarpanelcalculator.org/methodology</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://solarpanelcalculator.org/data-sources</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 12 Calculators -->
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator</loc><priority>0.95</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-system-size-calculator</loc><priority>0.90</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-number-calculator</loc><priority>0.90</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-output-calculator</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-savings-calculator</loc><priority>0.90</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-cost-calculator</loc><priority>0.90</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-payback-calculator</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-roi-calculator</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/battery-storage-calculator</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-roof-area-calculator</loc><priority>0.80</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-co2-calculator</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-battery-calculator</loc><priority>0.80</priority></url>
+
+  <!-- Country SEO Landing Pages -->
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india</loc><priority>0.85</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/canada</loc><priority>0.80</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/australia</loc><priority>0.80</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/uk</loc><priority>0.80</priority></url>
+
+  <!-- Key State Pages (USA) -->
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa/california</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa/texas</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa/florida</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa/arizona</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/usa/new-york</loc><priority>0.75</priority></url>
+
+  <!-- Key State Pages (India) -->
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india/maharashtra</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india/gujarat</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india/rajasthan</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india/karnataka</loc><priority>0.75</priority></url>
+  <url><loc>https://solarpanelcalculator.org/solar-panel-calculator/india/delhi</loc><priority>0.75</priority></url>
+</urlset>

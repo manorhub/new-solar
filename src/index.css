@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-solar-amber: #f59e0b;
+    --color-solar-gold: #d97706;
+    --color-solar-emerald: #10b981;
+    --color-solar-slate: #0f172a;
+    --color-solar-light-bg: #f8fafc;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased selection:bg-amber-500 selection:text-white;
+    min-height: 100vh;
+  }
+
+  /* Custom Print Styles */
+  @media print {
+    header, footer, nav, .no-print {
+      display: none !important;
+    }
+    .print-only {
+      display: block !important;
+    }
+    body {
+      background: white !important;
+      color: black !important;
+    }
+  }
+}
+
+/* Custom visual utilities */
+.solar-card {
+  @apply bg-white border border-slate-200 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200;
+}
+
+.solar-input {
+  @apply w-full px-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all font-medium text-sm;
+}
+
+.solar-label {
+  @apply block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1.5;
+}
+
+.solar-badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold tracking-wide;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

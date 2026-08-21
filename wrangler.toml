@@ -1,0 +1,5 @@
+name = "solar-panel-calculator"
+pages_build_output_dir = "./dist"
+
+[site]
+bucket = "./dist"
